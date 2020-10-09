@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.slack{
+    display: flex;
+}
+.sidebar{
+    height: 920px;
+    width: 20%;
+    background-color: #3f0e42;
+    color:white;
+    padding: 20px;
+}
+.MainContainer{
+    margin-left: 20px;
+    width: 80%;
+}
+.user{
+    display: flex
+}
+.message{
+    display: flex;
+    margin-top: 30px;
+    width: 250px;
+    height: 100px;
+}
+.left-block img{
+    width: 80%;
+}
+.ronal{
+    padding-right: 50px;
+    font-size: 22px;
+}
+.logout img{
+    width: 20%;
+}
+.logout img:hover{
+    background-color:grey;
+}
+.logout:hover{
+    cursor: pointer;
+}
+.channel{
+    margin-top:20px;
+}
+.user-icon img{
+    width: 27%;
+}
+.writeBox{
+    position: fixed;
+    width:75%;
+    bottom:0;
+}
+footer textarea{
+    width: 100%;
+    height: 80px;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 355px;
+}
